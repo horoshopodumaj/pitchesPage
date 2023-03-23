@@ -108,9 +108,8 @@ const Index: NextPage = () => {
 				<Head>
 					<title>{demoPagesMenu.gridPages.subMenu.gridBoxed.text}</title>
 				</Head>
-				<SubHeader>
+				{/* <SubHeader>
 					<SubHeaderLeft>
-						{/* eslint-disable-next-line @next/next/no-img-element */}
 						<img src={Company1} alt='Company' height={24} />
 						<span>Products</span>
 						<SubheaderSeparator />
@@ -128,7 +127,7 @@ const Index: NextPage = () => {
 							Add New
 						</Button>
 					</SubHeaderRight>
-				</SubHeader>
+				</SubHeader> */}
 			</PageWrapper>
 
 			<PitchesCard />
