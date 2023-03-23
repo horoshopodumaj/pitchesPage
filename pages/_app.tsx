@@ -47,7 +47,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 							showNavigation={false}
 							showBadge={false}>
 							<App>
-								{/* <AsideRoutes /> */}
+								<AsideRoutes />
 								<Wrapper>
 									{/* eslint-disable-next-line react/jsx-props-no-spreading */}
 									<Component {...pageProps} />
